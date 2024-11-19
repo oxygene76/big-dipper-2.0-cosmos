@@ -1,0 +1,193 @@
+{
+  "chainName": "medasdigital",
+  "title": "Medas Digital 2.0 Block Explorer",
+  "extra": {
+    "profile": true,
+    "graphqlWs": true
+  },
+  "previewImage": "https://s3.bigdipper.live/medas.png",
+  "themes": {
+    "default": "dark",
+    "themeList": [
+      "dark",
+      "deuteranopia",
+      "tritanopia"
+    ],
+    "dark": {
+      "primary": {
+        "main": "#FF6557",
+        "contrastText": "#FFFFFF"
+      },
+      "background": {
+        "default": "#000000",
+        "paper": "#171717"
+      },
+      "divider": "#282828",
+      "text": {
+        "primary": "#E6E6E6",
+        "secondary": "#C4C4C4"
+      },
+      "custom": {
+        "general": {
+          "background": "#000000",
+          "surfaceOne": "#171717",
+          "surfaceTwo": "#242424",
+          "icon": "#999999"
+        },
+        "fonts": {
+          "fontOne": "#E6E6E6",
+          "fontTwo": "#C4C4C4",
+          "fontThree": "#818181",
+          "fontFour": "#999999",
+          "fontFive": "#FFFFFF",
+          "highlight": "#379AFE"
+        },
+        "primaryData": {
+          "one": "#D84839",
+          "two": "#FE5834",
+          "three": "#B021F3",
+          "four": "#4C78EA"
+        },
+        "results": {
+          "pass": "#1EC490",
+          "fail": "#FD3B4C"
+        },
+        "tokenomics": {
+          "one": "#E46245",
+          "two": "#E3BB55",
+          "three": "#20D292"
+        },
+        "condition": {
+          "zero": "#E6E6E6",
+          "one": "#1EC490",
+          "two": "#FF9338",
+          "three": "#FF608A"
+        },
+        "charts": {
+          "zero": "#E6E6E6",
+          "one": "#5ACF78",
+          "two": "#E46245",
+          "three": "#D2463A",
+          "four": "#E3AB55",
+          "five": "#C25396"
+        },
+        "tags": {
+          "zero": "#E8E8E8",
+          "one": "#2460FA",
+          "two": "#2BA892",
+          "three": "#E79721",
+          "four": "#F17048",
+          "five": "#DA4B4B",
+          "six": "#9438DC",
+          "seven": "#1A869D",
+          "eight": "#2C9945",
+          "nine": "#B49F32",
+          "ten": "#E9A847",
+          "eleven": "#E94682",
+          "twelve": "#C15EC4",
+          "thirteen": "#C388D9",
+          "fourteen": "#46AEE9",
+          "fifteen": "#58BC91",
+          "sixteen": "#90BC58",
+          "seventeen": "#E99E8E",
+          "eighteen": "#F0A479",
+          "nineteen": "#D37763",
+          "twenty": "#D9C788"
+        },
+        "wallet": {
+          "background": "#5E5E5E",
+          "backgroundTwo": "#212123",
+          "surfaceOne": "#5E5C5C",
+          "surfaceTwo": "#D9D9D9",
+          "surfaceThree": "#4D4D4D",
+          "surfaceFour": "#414141",
+          "surfaceFive": "#777777",
+          "divider": "#34383E",
+          "textPrimary": "#000000",
+          "textSecondary": "#DDDDDD"
+        }
+      }
+    },
+    "light": {
+      "primary": {},
+      "background": {},
+      "text": {},
+      "custom": {
+        "general": {
+          "icon": "#999999"
+        },
+        "fonts": {},
+        "primaryData": {},
+        "results": {},
+        "tokenomics": {},
+        "condition": {},
+        "charts": {},
+        "tags": {},
+        "wallet": {}
+      }
+    }
+  },
+  "keplr": "{\"rpc\":\"https://rpc.medas-digital.io:26657\",\"rest\":\"https://lcd.medas-digital.io:1317\",\"chainId\":\"medasdigital-2\",\"chainName\":\"medasdigital\",\"chainSymbolImageUrl\":\"https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/medasdigital/chain.png\",\"stakeCurrency\":{\"coinDenom\":\"MEDAS\",\"coinMinimalDenom\":\"umedas\",\"coinDecimals\":6,\"coinGeckoId\":\"medasdigital\"},\"walletUrl\":\"https://wallet.keplr.app/chains/medasdigital\",\"walletUrlForStaking\":\"https://wallet.keplr.app/chains/medasdigital\",\"bip44\":{\"coinType\":118},\"bech32Config\":{\"bech32PrefixAccAddr\":\"medas\",\"bech32PrefixAccPub\":\"medaspub\",\"bech32PrefixValAddr\":\"medasvaloper\",\"bech32PrefixValPub\":\"medasvaloperpub\",\"bech32PrefixConsAddr\":\"medasvalcons\",\"bech32PrefixConsPub\":\"medasvalconspub\"},\"currencies\":[{\"coinDenom\":\"MEDAS\",\"coinMinimalDenom\":\"umedas\",\"coinDecimals\":6,\"coinGeckoId\":\"medasdigital\"}],\"feeCurrencies\":[{\"coinDenom\":\"MEDAS\",\"coinMinimalDenom\":\"umedas\",\"coinDecimals\":6,\"coinGeckoId\":\"medasdigital\"}],\"features\":[]}",
+  "chains": [
+    {
+      "network": "medasdigital-2",
+      "chainType": "Mainnet",
+      "genesis": {
+        "time": ""2024-11-13T14:45:00",
+        "height": 1
+      },
+      "prefix": {
+        "consensus": "medasvalcons",
+        "validator": "medasvaloper",
+        "account": "medas"
+      },
+      "primaryTokenUnit": "umedas",
+      "votingPowerTokenUnit": "umedas",
+      "tokenUnits": {
+        "uakt": {
+          "display": "medas",
+          "exponent": 6
+        }
+      },
+      "endpoints": {
+        "graphql": "https://gql.medas-digital.io/v1/graphql",
+        "graphqlWebsocket": "wss://gql.medas-digital.io/v1/graphql",
+        "publicRpcWebsocket": "wss://rpc.medas-digital.io/websocket"
+      },
+      "marketing": {
+        "matomoURL": "https://analytics.bigdipper.live",
+        "matomoSiteID": "8"
+      }
+    },
+    {
+      "network": "medasdigital-test",
+      "chainType": "Testnet",
+      "genesis": {
+        "time": "2023-06-19T09:22:15",
+        "height": 1
+      },
+      "prefix": {
+        "consensus": "medasvalcons",
+        "validator": "medasvaloper",
+        "account": "medas"
+      },
+      "primaryTokenUnit": "umedas",
+      "votingPowerTokenUnit": "umedas",
+      "tokenUnits": {
+        "uakt": {
+          "display": "medas",
+          "exponent": 6
+        }
+      },
+      "endpoints": {
+        "graphql": "https://gql-testnet.medas-digital.io/v1/graphql",
+        "graphqlWebsocket": "wss://gql-testnet.medas-digital.io/v1/graphql",
+        "publicRpcWebsocket": "wss://rpc-testnet.medas-digital.io/websocket"
+      },
+      "marketing": {
+        "matomoURL": "https://analytics.bigdipper.live",
+        "matomoSiteID": "8"
+      }
+    }
+  ]
+}
